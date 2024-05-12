@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 
@@ -12,10 +11,10 @@ function Login() {
           </div> 
           <div className="h-[200px] flex items-center flex-col space-y-10 justify-center">
             <div className="">
-              <input type="password" className="h-[35px] w-[400px] rounded-lg pl-[10px] text-lg" placeholder="username"></input>
+              <input type="text" className="h-[35px] w-[400px] rounded-lg pl-[10px] text-lg" placeholder="username"></input>
             </div>
             <div className="">
-              <input type="text" className="h-[35px] w-[400px] rounded-lg pl-[10px] text-lg" placeholder="password"></input>
+              <input type="password" className="h-[35px] w-[400px] rounded-lg pl-[10px] text-lg" placeholder="password"></input>
             </div>
           </div>
           <div className="w-[540px] flex flex-row-reverse items-center">
