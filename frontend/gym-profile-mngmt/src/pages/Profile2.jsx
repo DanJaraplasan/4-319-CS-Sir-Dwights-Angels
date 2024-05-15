@@ -16,11 +16,13 @@ function Profile2() {
             </div>
         </div>
         <div className="h-[700px] w-[1780px] bg-white rounded-b">
-        <ul className="text-2xl p-3 flex space-x-[350px]">
+        <ul className="text-2xl p-3 flex space-x-[330px]">
                     <li>Jin</li>
                     <li>02/13/2024</li>
                     <li>03/13/2024</li>
                     <li>Active</li>
+                   
+                    <button type="button" class="btn btn-warning" onClick={() => editEmployee(item)} >Edit</button> 
                 </ul>  
             </div>
         </div>

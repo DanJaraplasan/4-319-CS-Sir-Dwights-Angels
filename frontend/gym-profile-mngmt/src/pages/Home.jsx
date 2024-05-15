@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
     return (
@@ -65,9 +66,8 @@ function Home() {
                         ></path>
                     </svg>
                     </span>
-                    <span
-                    class="relative w-full text-left transition-colors duration-200 ease-in-out group-hover:text-white dark:group-hover:text-gray-200"
-                    >JOIN US</span>
+                    <button onClick= "relative w-full text-left transition-colors duration-200 ease-in-out group-hover:text-white dark:group-hover:text-gray-200"
+                    >JOIN US</button>
                     
                 </div>
                 <div className="mb-[125px]"></div>
@@ -84,17 +84,17 @@ function Home() {
                     {/* Feature 1 */}
                     <div className="p-4 border border-gray-300 rounded-lg">
                         <h3 className="text-xl font-bold mb-2">Feature 1</h3>
-                        <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p className="text-white">Coaching Services.</p>
                     </div>
                     {/* Feature 2 */}
                     <div className="p-4 border border-gray-300 rounded-lg">
                         <h3 className="text-xl font-bold mb-2">Feature 2</h3>
-                        <p className="text-white">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p className="text-white">Planned Workout Split.</p>
                     </div>
                     {/* Feature 3 */}
                     <div className="p-4 border border-gray-300 rounded-lg">
                         <h3 className="text-xl font-bold mb-2">Feature 3</h3>
-                        <p className="text-white">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p className="text-white">Good Customer Services.</p>
                     </div>
                 </div>
             </div>
