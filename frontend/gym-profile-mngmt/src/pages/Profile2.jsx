@@ -6,29 +6,25 @@ function Profile2() {
     <div className="bg-gradient-to-r from-gray-900 to-gray-600">
       <div className="h-screen w-screen flex justify-center flex-col p-[50px]">
         <div className="h-[50px] w-[1780px] rounded-t border-none border-[2px] bg-gray-300 ">
-          <div className="text-left p-2 text-3xl">
-            name 
-          </div> 
+        <div className="container mx-auto flex justify-between items-center">      
+                <ul className="text-2xl p-3 flex space-x-[350px]">
+                    <li>Name</li>
+                    <li>Date Joined</li>
+                    <li>Expiry Date</li>
+                    <li>Status</li>
+                </ul>
+            </div>
         </div>
         <div className="h-[700px] w-[1780px] bg-white rounded-b">
-          <div className= "text-left p-10 text-5xl">
-           Jin
-          </div>
-          <div className= "text-left p-10 text-7xl">
-            
-          </div>
-          <div className= "text-left p-10 text-7xl">
-            
-          </div>
-          <div className="flex justify-center p-[35px]">
-            <button className="">
-            </button>
-           
-          
+        <ul className="text-2xl p-3 flex space-x-[350px]">
+                    <li>Jin</li>
+                    <li>02/13/2024</li>
+                    <li>03/13/2024</li>
+                    <li>Active</li>
+                </ul>  
             </div>
         </div>
       </div>
-    </div>
   );
 }
 
