@@ -8,7 +8,7 @@ function Home() {
         {/* Navigation Bar */}
         <nav className="bg-gradient-to-r from-gray-900 to-gray-600 text-white p-4 h-[100px]">
             <div className="container mx-auto flex justify-between items-center">
-                <a href="#" className="text-xl font-bold">Gym</a>
+                <a href="#" className="text-xl font-bold">EJP Fitness Gym</a>
                 <ul className="flex space-x-[50px]">
                     <li><a href="#" className="hover:text-gray-300">Home</a></li>
                     <li><a href="#" className="hover:text-gray-300">About</a></li>
@@ -21,8 +21,8 @@ function Home() {
         {/* Hero Section */}
         <section className="bg-gradient-to-r from-gray-900 to-gray-600 text-white py-20">
             <div className="container mx-auto text-center">
-                <h1 className="text-4xl font-bold">GYM</h1>
-                <p className="text-lg">We are GYM</p>
+                <h1 className="text-4xl font-bold">EJP Fitness GYM</h1>
+                <p className="text-lg">We bring fitness to your life!</p>
                 <div class="w-full flex items-center justify-center cursor-pointer">
                 <div
                     class="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold shadow text-black-600 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-gray-50 dark:bg-gray-700 dark:text-white dark:hover:text-gray-200 dark:shadow-none group"
@@ -83,19 +83,19 @@ function Home() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {/* Feature 1 */}
                     <div className="p-4 border border-gray-300 rounded-lg">
-                        <h3 className="text-xl font-bold mb-2">Feature 1</h3>
-                        <p className="text-white">Coaching Services.</p>
+                        <h3 className="text-xl font-bold mb-2">State-of-the-Art Equipment</h3>
+                        <p className="text-white">Experience our extensive range of cardio machines, free weights, and functional training tools.</p>
                     </div>
                     {/* Feature 2 */}
                     <div className="p-4 border border-gray-300 rounded-lg">
-                        <h3 className="text-xl font-bold mb-2">Feature 2</h3>
-                        <p className="text-white">Planned Workout Split.</p>
+                        <h3 className="text-xl font-bold mb-2">Dynamic Classes</h3>
+                        <p className="text-white">Join our energizing fitness classes, including yoga, boxing, cross-fit, and more, led by certified instructors.</p>
                     </div>
                     {/* Feature 3 */}
                     <div className="p-4 border border-gray-300 rounded-lg">
-                        <h3 className="text-xl font-bold mb-2">Feature 3</h3>
-                        <p className="text-white">Good Customer Services.</p>
-                    </div>
+                        <h3 className="text-xl font-bold mb-2">Comprehensive Wellness Services</h3>
+                        <p className="text-white"></p>
+                    </div>Enjoy our luxurious locker rooms, and access to personal trainers and nutritionists for a complete fitness journey.
                 </div>
             </div>
         </section>
