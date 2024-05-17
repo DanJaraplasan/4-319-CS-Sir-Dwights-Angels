@@ -22,7 +22,7 @@ function Profile2() {
                     <li>03/13/2024</li>
                     <li>Active</li>
                    
-                    <button type="button" class="btn btn-warning" onClick={() => editEmployee(item)} >Edit</button> 
+                    <button type="button" class="btn btn-archive" onClick={() => editEmployee(item)} >Archive</button> 
                 </ul>  
             </div>
         </div>

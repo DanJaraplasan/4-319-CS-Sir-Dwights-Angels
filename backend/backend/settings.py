@@ -37,8 +37,15 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders',
-    'users'
+    'users',
+    'api'
 ]
+
+REST_FRAMEWORk = {
+    'DEFAULT-AUTHENTICATION-CLASSES' : [
+        'rest_framework.authentication.TokenAuthentication',
+    ]
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -76,8 +83,8 @@ WSGI_APPLICATION = 'auth.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'yt_django_auth',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'db.sqlite3',
         'USER': 'root',
         'PASSWORD': 'rootroot'
     }
