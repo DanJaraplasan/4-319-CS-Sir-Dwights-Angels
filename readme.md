@@ -1,12 +1,8 @@
-Name of the Application
+EJPGym
 
 ------------------------------
 
 Description (3 - 5 sentences)
-
-------------------------------
-
-Database Diagram
 
 ------------------------------
 
@@ -18,9 +14,9 @@ Libraries used
 
 - React Router
 
-- Lodash (example)
+- Postgresql
 
-- Jest
+- Docker
 
 ------------------------------
 
