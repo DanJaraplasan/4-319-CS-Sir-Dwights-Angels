@@ -40,6 +40,9 @@ Entize, John Vergel
 
 Jaraplasan, Dan Gabriel
 
+
+![danphoto](https://github.com/DanJaraplasan/4-319-CS-Sir-Dwights-Angels/assets/77042439/658217ce-00e9-4522-9886-62633f8c9595)
+
 Parcia, Jin Andrei
 
 
