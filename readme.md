@@ -44,3 +44,6 @@ Parcia, Jin Andrei
 
 
 ![55949902_2279865848732516_196618719433064448_n](https://github.com/DanJaraplasan/4-319-CS-Sir-Dwights-Angels/assets/77042439/1ef99a34-eda6-4287-9532-7a3391752fbe)
+
+----------------------------------------------
+Video: https://drive.google.com/drive/folders/1Y2Tn1oK8bqJPMV6WLwJOq5WUEFhQPzD2?usp=sharing
